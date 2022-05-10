@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header";
+import NoInternetConnection from "./components/NoInternetConnection";
 import Weather from "./components/Weather";
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
 
   return (
     <div>
+      <NoInternetConnection />
       <Header onSubmitCity={(newCityname) => setCityname(newCityname)} />
       <Weather cityname={cityname} />
     </div>

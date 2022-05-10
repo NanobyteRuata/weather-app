@@ -1,0 +1,25 @@
+.card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  padding: 16px;
+  cursor: pointer;
+  opacity: 1;
+}
+.card:hover {
+  opacity: 0.7;
+}
+.card.active {
+  border: 1px blue solid;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.card-temp {
+  margin: 0 0 4px 0;
+}

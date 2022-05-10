@@ -1,0 +1,50 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.selected-weather {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected-weather .city,
+.selected-weather .high-low {
+  margin-bottom: 4px;
+}
+
+.selected-weather .weather-description {
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.selected-weather .feels-like {
+  margin-top: 0;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-details .detail-item {
+  margin-right: 8px;
+}
+
+.weather-details .detail-item :first-child {
+  margin-right: 4px;
+}
+
+.forecast-container {
+  overflow: auto;
+  padding: 4px 0;
+}
+
+.forecast-container .forecast {
+  display: flex;
+  width: max-content;
+}
